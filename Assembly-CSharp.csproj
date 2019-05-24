@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{53DCCC41-625F-741D-BB0F-145D38038273}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_4;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;VUFORIA_ANDROID_SETTINGS;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/software/Unity5.6.4f1/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/software/Unity5.6.4f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Hint.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Demo Scripts\DeskManagement.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Effects\Gradient.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Effects\NicerOutline.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Enums, Structs and Serializables\AnimationTriggersExtended.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Enums, Structs and Serializables\ColorBlockExtended.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Enums, Structs and Serializables\SpriteStateExtended.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Enums, Structs and Serializables\UIWindowID.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Miscellaneous\BitMaskAttribute.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Miscellaneous\BreakPrefabConnection.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Miscellaneous\CommonColorBuffer.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Miscellaneous\LetterSpacing.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Miscellaneous\NameAppendIndex.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Miscellaneous\UITextSetValue.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Miscellaneous\UIToggleWindowAndTab.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Miscellaneous\UIUtility.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Raycast Filters\UICircularRaycastFilter.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Raycast Filters\UIIgnoreRaycast.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Raycast Filters\UIMaskRaycastFilter.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Raycast Filters\UIRectangularRaycastFilter.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Test Scripts\Test_Fill.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Tweening\ColorTween.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Tweening\FloatTween.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Tweening\ITweenValue.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Tweening\TweenEasing.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Tweening\TweenEasingHandler.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Tweening\TweenRunner.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Tweening\Vector2Tween.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\Tweening\Vector3Tween.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\UI\Select Field\UISelectField.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\UI\Select Field\UISelectField_Arrow.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\UI\Select Field\UISelectField_Label.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\UI\Select Field\UISelectField_List.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\UI\Select Field\UISelectField_Option.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\UI\UIButtonExtended.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\UI\UIButtonExtended_Target.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\UI\UIDragObject.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\UI\UIFlippable.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\UI\UIHighlightTransition.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\UI\UIPagination.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\UI\UIScrollingProxy.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\UI\UISliderExtended.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\UI\UISpriteAnimation.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\UI\UITab.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\UI\UIWindow.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Scripts\UI\UIWindowManager.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Simple Sprite Packer\Scripts\SPAction.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Simple Sprite Packer\Scripts\SPActionType.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Simple Sprite Packer\Scripts\SPInstance.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Simple Sprite Packer\Scripts\SPSpriteInfo.cs" />
+     <Compile Include="Assets\Holo UI for UGUI\Simple Sprite Packer\Scripts\UITexturePacker.cs" />
+     <Compile Include="Assets\Materials\Metal Cubicmap V1\Example\Scipts\Gui.cs" />
+     <Compile Include="Assets\Materials\Metal Cubicmap V1\Example\Scipts\Turn.cs" />
+     <Compile Include="Assets\OtlanController.cs" />
+     <Compile Include="Assets\Scripts\Autofocus.cs" />
+     <Compile Include="Assets\Scripts\GalleryScreenshotExample.cs" />
+     <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\InfoPanel.cs" />
+     <Compile Include="Assets\Scripts\IntroPanel.cs" />
+     <Compile Include="Assets\Scripts\IntroScene.cs" />
+     <Compile Include="Assets\Scripts\Otlan\Otlan.cs" />
+     <Compile Include="Assets\Scripts\Otlan\Otlan14H.cs" />
+     <Compile Include="Assets\Scripts\Otlan\OtlanF5.cs" />
+     <Compile Include="Assets\Scripts\Otlan\OtlanSlt.cs" />
+     <Compile Include="Assets\Scripts\Otlan\OtlanX5.cs" />
+     <Compile Include="Assets\Scripts\Otlan\PhotoOtlan.cs" />
+     <Compile Include="Assets\Scripts\Otlan\Script14H.cs" />
+     <Compile Include="Assets\Scripts\Otlan\ScriptF5.cs" />
+     <Compile Include="Assets\Scripts\Otlan\ScriptX5.cs" />
+     <Compile Include="Assets\Scripts\Otlan\ScritpSlt.cs" />
+     <Compile Include="Assets\Scripts\Otlan\ScrptsOtlan.cs" />
+     <Compile Include="Assets\Scripts\OtlanComponent.cs" />
+     <Compile Include="Assets\Scripts\PhotoPanel.cs" />
+     <Compile Include="Assets\Scripts\PhotoTrableEventHandler.cs" />
+     <Compile Include="Assets\Scripts\PunchScale.cs" />
+     <Compile Include="Assets\Scripts\ReshuiqiTrackableEventHandler.cs" />
+     <Compile Include="Assets\Scripts\Rotatable.cs" />
+     <Compile Include="Assets\Scripts\SelectPanel.cs" />
+     <Compile Include="Assets\Scripts\ShowItem.cs" />
+     <Compile Include="Assets\Scripts\StructPanel.cs" />
+     <Compile Include="Assets\Scripts\UntrackControl.cs" />
+     <Compile Include="Assets\Test.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultSmartTerrainEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\GLErrorHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\HideExcessAreaBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\AndroidUnityPlayer.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\ComponentFactoryStarterBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\IOSUnityPlayer.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\VuforiaBehaviourComponentFactory.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\WSAUnityPlayer.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\MaskOutBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\MultiTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ObjectTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\PropBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ReconstructionBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ReconstructionFromTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\SurfaceBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TextRecoBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TurnOffBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TurnOffWordBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\UserDefinedTargetBuildingBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Utilities\VRIntegrationHelper.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VideoBackgroundBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VirtualButtonBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VuMarkBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VuforiaBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VuforiaConfiguration.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VuforiaRuntimeInitialization.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
+     <None Include="Assets\Materials\Realistic Metals Pack\Materials\Shader\TI Silver.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Holo UI for UGUI\Readme.txt" />
+     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\Holo UI for UGUI\Changelog.txt" />
+     <None Include="Assets\_ProjectData\VuforiaKey.txt" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\DOTween\DOTween43.xml" />
+     <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\readme_SDK.txt" />
+     <None Include="Assets\DOTween\DOTween46.xml" />
+     <None Include="Assets\Materials\铜管.shader" />
+     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+     <None Include="Assets\DOTween\readme.txt" />
+     <None Include="Assets\Materials\Realistic Metals Pack\Materials\Shader\TI Red Gold.shader" />
+     <None Include="Assets\license_3rdpartynotice.txt" />
+     <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
+     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\DOTween\DOTween50.xml" />
+     <None Include="Assets\Materials\Realistic Metals Pack\readme.txt" />
+     <None Include="Assets\Holo UI for UGUI\Simple Sprite Packer\Changelog.txt" />
+     <None Include="Assets\Materials\test.shader" />
+     <None Include="Assets\Holo UI for UGUI\Simple Sprite Packer\readme.txt" />
+     <None Include="Assets\Materials\Realistic Metals Pack\Materials\Shader\TI Gold.shader" />
+     <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
+     <None Include="Assets\Materials\Realistic Metals Pack\Materials\Shader\TI Aluminium.shader" />
+     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\Materials\222水管.shader" />
+     <None Include="Assets\Shader\TextShader.shader" />
+     <None Include="Assets\Shader\NewUnlitShader.shader" />
+     <None Include="Assets\Materials\Metal Cubicmap V1\Documentation\How to use.txt" />
+     <None Include="Assets\StreamingAssets\Vuforia\Reshuiqi.xml" />
+     <None Include="Assets\Animation\Other\X5Anim\X5_water_anim.shader" />
+     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/software/Unity5.6.4f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/software/Unity5.6.4f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>D:/software/Unity5.6.4f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>D:/software/Unity5.6.4f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>D:/software/Unity5.6.4f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>D:/software/Unity5.6.4f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>D:/software/Unity5.6.4f1/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>C:/Users/陈原亮/Desktop/Reshuiqi0410/Reshuiqi/Assets/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>C:/Users/陈原亮/Desktop/Reshuiqi0410/Reshuiqi/Assets/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>C:/Users/陈原亮/Desktop/Reshuiqi0410/Reshuiqi/Assets/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>C:/Users/陈原亮/Desktop/Reshuiqi0410/Reshuiqi/Assets/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="Vuforia.UnityExtensions">
+ <HintPath>C:/Users/陈原亮/Desktop/Reshuiqi0410/Reshuiqi/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{E4FD86AF-EFBE-6B88-DC5D-046860677BC2}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
